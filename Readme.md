@@ -121,7 +121,7 @@ Voici une constante que vous pouvez définir dans votre fichier myApp/annuaire/v
 
 Nous voulons lister les différents contacts sur une page.
 
-Vous pouvez reprendre la page list.html fournie dans notre archive et la compléter.
+Vous pouvez reprendre la page list.html fournie dans notre archive et la compléter pour afficher la liste des contacts.
 
 Vous pouvez également ajouter un lien de notre page accueil vers notre annuaire afin de faciliter la navigation.
 

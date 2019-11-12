@@ -89,9 +89,9 @@ Créez vous une seconde application "annuaire".
 
 Voici une constante que vous pouvez définir dans votre fichier myApp/annuaire/views.py
 
-    ```json
+```json
     contacts = [
-      {
+       {
           "nom": "Cassidy",
           "prenom": "Hammond",
           "telephone": "03 94 96 50 97"
@@ -117,7 +117,7 @@ Voici une constante que vous pouvez définir dans votre fichier myApp/annuaire/v
           "telephone": "03 85 87 65 55"
         }
     ]
-    ```
+```
 
 Nous voulons lister les différents contacts sur une page.
 
@@ -156,7 +156,7 @@ Vous pouver utiliser la commande `quit()` pour sortir du shell Django.
 Maintenant insérons des données dans votre table contact. Voici quelques données si vous êtes peu inspiré:
 
 ```json
-{
+    {
 		"nom": "Cassidy",
 		"prenom": "Hammond",
 		"telephone": "03 94 96 50 97"
@@ -198,7 +198,7 @@ Attention aux données déjà existantes dans votre base, elles doivent rester a
 Une fois la base mise à jour vous pouvez y insérer quelques données.
 Voici quelques entreprises :
 ```json
-{
+    {
 		"nom": "Mollis Lectus Pede Foundation",
 		"prénom": "",
 		"telephone": "07 78 07 96 07",

@@ -136,6 +136,11 @@ Pour cela, vous pouvez ajouter le fichier base.html dans le dossier myApp/templa
 Ajouter également `os.path.join(BASE_DIR, 'templates'),` dans le fichier myApp/settings dans TEMPLATES.DIRS.
 Cela permet de spécifier à Django que les templates globaux de l'application se trouvent dans le dossier myApp/templates
 
+## Customisons un peu
+
+Modifiez le fichier settings.py pour prendre en compte les fichier statics
+Vous pouvez prendre le fichier css fournis pour l'intégrer directement a votre projet.
+
 ## Base de données
 
 Pour l'instant notre application se base sur des données figées, nous voulons pouvoir moduler ces données.

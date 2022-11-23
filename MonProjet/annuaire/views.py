@@ -31,3 +31,6 @@ contacts = [
 
 def mylist(requests):
     return render(requests, "list.html",{'data':contacts})   
+
+def showcontact(requests,nom,prenom,telephone):
+  return render(requests, "contact.html",{'nom':nom,'prenom':prenom,'telephone':telephone})

@@ -4,7 +4,7 @@
       <particulier>
         {% for c in data %}
           <h2>
-              <a href ="">
+              <a href ="{% url 'contact' nom=c.nom.upper prenom=c.prenom telephone=c.telephone %}">
                   {{ c.nom.upper|add:" "|add:c.prenom}}
               </a>
           </h2>

@@ -1,0 +1,14 @@
+
+<div class="list">
+  <div>
+      <particulier>
+        {% for c in data %}
+          <h2>
+              <a href ="">
+                  {{ c.nom.upper|add:" "|add:c.prenom}}
+              </a>
+          </h2>
+          {% endfor %}
+      </particulier>
+  </div>
+</div>

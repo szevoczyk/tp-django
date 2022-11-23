@@ -1,0 +1,18 @@
+{% load mathfilters %}
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+<title>MonProjet</title>
+<body>
+
+<div class="">
+    <h1>Sum</h1>
+    {% if somme %}
+        <p>{{somme}}</p> 
+    {% else %} 
+        <p>{{n1|addition:n2}}</p>
+    {% endif %}
+</div>
+
+</body>
+</html> 

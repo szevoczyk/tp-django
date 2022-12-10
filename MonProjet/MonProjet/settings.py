@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accueil',
     'mathfilters',
     'annuaire',
+    'import_export',
 ]
 
 MIDDLEWARE = [

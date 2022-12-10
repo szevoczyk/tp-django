@@ -1,0 +1,17 @@
+
+<div class="list">
+  <div>
+      <particulier>
+        {% for c in data %}
+          <h2>
+              <a href ="{% url 'contact' nom=c.nom.upper telephone=c.telephone %}">
+                  {{ c.nom.upper}}
+              </a>
+          </h2>
+          {% endfor %}
+      </particulier>
+  </div>
+</div>
+<a href ="http://127.0.0.1:8000/">
+  Retourner sur l'accueil
+</a>
